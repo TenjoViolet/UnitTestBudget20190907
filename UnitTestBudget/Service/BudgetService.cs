@@ -24,7 +24,6 @@ namespace UnitTestBudget.Service
             List<Budget> ltBudget = _budgetRepos.GetAll(strStartDate, strEndDate);
 
             
-
             return decRet;
         }
     }
